@@ -18,6 +18,7 @@ pip3 install pyserial
 
 ### Step 3
 Run and Enjoy
+
 python3 dimmer.py
 
 # About The Author
