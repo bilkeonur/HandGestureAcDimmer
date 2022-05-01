@@ -10,7 +10,8 @@ Control AC Light with Hand Gesture
 Upload Dimmer.ino to Arduino
 
 ### Step 2
-Install Dependencies\\
+Install Dependencies\
+
 pip3 install opencv-python\
 pip3 install mediapipe\
 pip3 install pyserial
