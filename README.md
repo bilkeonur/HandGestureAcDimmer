@@ -41,9 +41,37 @@ python3 dimmer.py
 
 ### 50 Hz Sine Wave and Zero Cross Detection Input
 
+In alternating current, the zero-crossing is the instantaneous point at which there is no voltage present. In a sine wave or other simple waveform, this normally occurs twice during each cycle. It is a device for detecting the point where the voltage crosses zero in either direction.
+
+The zero-crossing is important for systems that send digital data over AC circuits, such as modems, X10 home automation control systems, and Digital Command Control type systems for Lionel and other AC model trains.
+
+https://en.wikipedia.org/wiki/Zero_crossing
+
+Signal frequency > 50hz
+
 ![SineWave](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/sine_wave.png)
+
+Fully rectified signal frequency > 100hz
+
 ![ZeroCrossDetectionInput](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/rectified_sine_wave.png)
 
+T=1/F -> T=1/100 -> T=0.01 Second -> T=10ms
+
+With the code below, we add a function that is triggered every 10ms
+
+```c++
+attachInterrupt(digitalPinToInterrupt(ZERO_CROSS_PIN), zeroCrossInterrupt, RISING);
+```
+
+```c++
+void zeroCrossInterrupt()
+{ 
+  delayMicroseconds(dimLevel*75);
+  digitalWrite(DIM_PIN, LOW); //Turn On Triac
+  delayMicroseconds(10);
+  digitalWrite(DIM_PIN, HIGH); //Turn Off Triac
+}
+```
 
 # About The Author
 
