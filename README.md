@@ -21,6 +21,13 @@ Run and Enjoy
 
 python3 dimmer.py
 
+### Dimmer Module Schematic and PCB
+
+![Schematic](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/ac_dimmer_schematic.png)
+
+![PCB](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/ac_dimmer_pcb.png)
+
+
 # About The Author
 
 ### Onur BiLKE
