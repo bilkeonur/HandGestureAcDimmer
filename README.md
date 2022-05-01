@@ -21,12 +21,15 @@ Run and Enjoy
 
 python3 dimmer.py
 
+### Circuit Diagram
+
+![CircuitDiagram](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/schematic.png)
+
 ### Dimmer Module Schematic and PCB
 
 ![Schematic](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/ac_dimmer_schematic.png)
 
 ![PCB](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/ac_dimmer_pcb.png)
-
 
 # About The Author
 
