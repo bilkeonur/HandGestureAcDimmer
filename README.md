@@ -27,10 +27,10 @@ python3 dimmer.py
 
 ### PCB Design
 
-![PCBBack](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/pcb_back.png)
-![PCBFront](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/pcb_front.png)
-![PCBSolderedBack](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/pcb_solderd_back.png)
-![PCBSolderedFront](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/pcb_soldered_front.png)
+![PCBBack](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/pcb_back.jpg)
+![PCBFront](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/pcb_front.jpg)
+![PCBSolderedBack](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/pcb_solderd_back.jpg)
+![PCBSolderedFront](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/pcb_soldered_front.jpg)
 
 ### Dimmer Module Schematic and PCB
 
