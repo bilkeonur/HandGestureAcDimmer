@@ -1,6 +1,6 @@
 # Hand Gesture Based AC Light Dimmer
 
-Control AC Light with Hand Gesture
+Control AC Light with Hand Gesture (Python - OpenCV - MediaPipe and Arduino)
 
 ### Youtube Video
 
