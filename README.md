@@ -35,8 +35,13 @@ python3 dimmer.py
 ### Dimmer Module Schematic and PCB
 
 ![Schematic](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/ac_dimmer_schematic.png)
-
 ![PCB](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/ac_dimmer_pcb.png)
+
+### 50 Hz Sine Wave and Zero Cross Detection Input
+
+![SineWave](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/sine_wave.png)
+![ZeroCrossDetectionInput](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/rectified_sine_wave.png)
+
 
 # About The Author
 
