@@ -6,9 +6,6 @@ Control AC Light with Hand Gesture
 
 [![IMAGE_ALT](https://img.youtube.com/vi/tuxtHrDm3WQ/0.jpg)](https://www.youtube.com/watch?v=tuxtHrDm3WQ)
 
-
-![HandGestureAcDimmer](https://github.com/bilkeonur/HandGestureAcDimmer/blob/main/Images/test.png)
-
 ### Installation
 
 ### Step 1
